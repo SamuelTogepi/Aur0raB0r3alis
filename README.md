@@ -23,7 +23,7 @@ Aur0ra_B0r3alis is an advanced, open-source tethered downgrade and jailbreak act
 | iOS Major | Versions Supported | Key Highlights |
 |-----------|---------------------|----------------|
 | **iOS 9** | 9.2 to 9.3.5 (9 total) | Lightest on A8; full 32-bit; untethered Pangu9 jailbreak. iMessage tweaks needed for 9.3+. |
-| **iOS 10** | 10.0 to 10.3.4 (13 total) | Last 32-bit support; Yalu102/h3lix semi-untethered; Raise to Wake, Night Shift. |
+| **iOS 10** | 10.0 to 10.3.3 (12 total) | Last 32-bit support; Yalu102/h3lix semi-untethered; Raise to Wake, Night Shift. |
 | **iOS 11** | 11.0 to 11.4.1 (16 total) | No 32-bit; ARKit, modern UI; Electra/h3lix; best security/memories. |
 
 **Recommended First Downgrade (for iPad mini 4 WiFi 128GB):** iOS 11.3.1 – Balances nostalgia, smoothness (~8hr battery), and 64-bit app compatibility. Follow with iOS 10.3.4 for 32-bit games, then iOS 9.3.5 for original feel.
