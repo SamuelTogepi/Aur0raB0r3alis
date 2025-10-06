@@ -26,7 +26,7 @@ Aur0ra_B0r3alis is an advanced, open-source tethered downgrade and jailbreak act
 | **iOS 10** | 10.0 to 10.3.3 (12 total) | Last 32-bit support; Yalu102/h3lix semi-untethered; Raise to Wake, Night Shift. |
 | **iOS 11** | 11.0 to 11.4.1 (16 total) | No 32-bit; ARKit, modern UI; Electra/h3lix; best security/memories. |
 
-**Recommended First Downgrade (for iPad mini 4 WiFi 128GB):** iOS 11.3.1 – Balances nostalgia, smoothness (~8hr battery), and 64-bit app compatibility. Follow with iOS 10.3.4 for 32-bit games, then iOS 9.3.5 for original feel.
+**Recommended First Downgrade (for iPad mini 4 WiFi 128GB):** iOS 11.3.1 – Balances nostalgia, smoothness (~8hr battery), and 64-bit app compatibility. Follow with iOS 10.3.3 for 32-bit games, then iOS 9.3.5 for original feel.
 
 ## Requirements
 
@@ -48,7 +48,7 @@ Aur0ra_B0r3alis is an advanced, open-source tethered downgrade and jailbreak act
 ## Installation
 
 1. **Download Release:**
-   - Clone or download from [GitHub](https://github.com/samueltogepi/aur0rab0r3alis).
+   - download from [GitHub](https://github.com/samueltogepi/aur0rab0r3alis).
    - Extract to a folder (e.g., `~/aur0rab0r3alis-v0.5`).
    - Ensure `payload/com.alex.activate.plist` exists (release-only; build if from source).
 
