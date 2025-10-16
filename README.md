@@ -5,9 +5,9 @@
 **Author:** Samuel Bowers (3-BSD)  
 **License:** MIT (see LICENSE file)  
 
-Aur0ra_B0r3alis is an advanced, open-source tethered downgrade and jailbreak activation tool designed specifically for legacy Apple A8/A8X devices. Built on the foundations of Legacy-iOS-Kit and better-sunst0rm (turdus merula in later updates), it enables users to downgrade from iOS 15.8.5 back to any version between iOS 9.2 and iOS 11.4.1, with automated activation restoration and jailbreak bootstrapping via JBME (JailbreakMe). This tool is particularly useful for enthusiasts restoring old iPads to their nostalgic glory, running 32-bit apps/games, or experimenting with semi-untethered jailbreaks.
+Aur0ra_B0r3alis is an advanced, open-source tethered downgrade and jailbreak activation tool designed specifically for legacy Apple A8/A8X devices. Built on the foundations of Legacy-iOS-Kit and better-sunst0rm (turdus merula in later updates), it enables users to downgrade from iOS 15.8.5 back to any version between iOS 9.2 and iOS 11.4.1, with automated activation restoration and jailbreak bootstrapping via JBME (JailbreakMe). This tool is handy for enthusiasts restoring old iPads to their nostalgic glory, running 32-bit apps/games, or experimenting with semi-untethered jailbreaks.
 
-**Warning:** Downgrading iOS can brick your device if mishandled. This is for advanced users only. Always back up your data, ensure you have a USB-A Lightning cable, and follow instructions precisely. No support for Cellular models with baseband issues (WiFi recommended). Proceed at your own risk.
+**Warning:** Downgrading iOS can brick your device if not handled properly. This is for advanced users only. Always back up your data, ensure you have a USB-A Lightning cable, and follow instructions precisely. Proceed at your own risk.
 
 ## Features
 
