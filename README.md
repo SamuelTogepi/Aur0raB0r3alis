@@ -5,13 +5,13 @@
 **Author:** Samuel Bowers (3-BSD)  
 **License:** MIT (see LICENSE file)  
 
-Aur0ra_B0r3alis is an advanced, open-source tethered downgrade and jailbreak activation tool designed specifically for legacy Apple A8/A8X devices. Built on the foundations of Legacy-iOS-Kit and better-sunst0rm (turdus merula in later updates), it enables users to downgrade from iOS 15.8.5 back to any version between iOS 9.2 and iOS 11.4.1, with automated activation restoration and jailbreak bootstrapping via JBME (JailbreakMe). This tool is handy for enthusiasts restoring old iPads to their nostalgic glory, running 32-bit apps/games, or experimenting with semi-untethered jailbreaks.
+Aur0ra_B0r3alis is an advanced, open-source tethered downgrade and jailbreak activation tool designed specifically for legacy Apple A8/A8X devices. Built on the foundations of Legacy-iOS-Kit and this tool which is original (turdus merula in later updates), it enables users to downgrade from iOS 15.8.5 back to any version between iOS 9.2 and iOS 11.4.1, with automated activation restoration and jailbreak bootstrapping via JBME (JailbreakMe). This tool is handy for enthusiasts restoring old iPads to their nostalgic glory, running 32-bit apps/games, or experimenting with semi-untethered jailbreaks.
 
 **Warning:** Downgrading iOS can brick your device if not handled properly. This is for advanced users only. Always back up your data, ensure you have a USB-A Lightning cable, and follow instructions precisely. Proceed at your own risk.
 
 ## Features
 
-- **Full Tethered Downgrade Support:** Downgrade to **every minor and point release** from iOS 9.2 (13C75) to iOS 11.4.1 (15G77), including all 39+ variants. Uses Better-Sunst0rm for SEP patching (SHCBlock/PTEBlock extraction) and checkm8 exploitation.
+- **Full Tethered Downgrade Support:** Downgrade to **every minor and point release** from iOS 9.2 (13C75) to iOS 11.4.1 (15G77), including all 39+ variants. Uses checkm8 exploitation.
 - **Automated Activation Restoration:** Extracts and restores activation files (activation_records, data_ark.plist, IC-Info.sisv, commcenter prefs, factorydata) from a temporary iOS 15.8.5 restore via SSH ramdisk.
 - **Jailbreak Bootstrap:** Integrates JBME loader for semi-untethered jailbreaks post-downgrade. Generates per-device boot scripts for tethered booting (e.g., `boot_mini4-11.3.1_15E302-serial.sh`).
 - **Device-Specific Handling:** Supports iPad Air 2 (A8X, iPad5,3 WiFi / iPad5,4 Cellular) and iPad mini 4 (A8, iPad5,1 WiFi / iPad5,2 Cellular). Detects TSMC/Samsung chips; WiFi models prioritized.
@@ -26,7 +26,7 @@ Aur0ra_B0r3alis is an advanced, open-source tethered downgrade and jailbreak act
 | **iOS 10** | 10.0 to 10.3.3 (12 total) | Last 32-bit support; Yalu102/h3lix semi-untethered; Raise to Wake, Night Shift. |
 | **iOS 11** | 11.0 to 11.4.1 (16 total) | No 32-bit; ARKit, modern UI; Electra/h3lix; best security/memories for me. |
 
-**Recommended First Downgrade (for iPad mini 4 WiFi+4G 128GB):** iOS 11.3.1 – Balances memories (in my opinion), smoothness (~8hr battery), and 64-bit app compatibility. Follow with iOS 10.3.3 for 32-bit games, then iOS 9.3.5 for original feel.
+**Recommended First Downgrade (for iPad mini 4 WiFi+4G 128GB):** iOS 11.2 – Balances memories (in my opinion), smoothness (~8hr battery), and 64-bit app compatibility. Follow with iOS 10.3.3 for 32-bit games, then iOS 9.3.5 for original feel.
 
 ## Requirements
 
@@ -130,7 +130,7 @@ Based on A8 performance (lightest: iOS 9 > 10 > 11), 32-bit support (iOS 10 last
 
 - **"No device detected":** Reset usbmuxd (`sudo systemctl restart usbmuxd`), reconnect cable, trust device.
 - **DFU Loop:** Hold Home+Power until Recovery; script auto-exits DFU.
-- **Download Fails (404):** Update URL in script with fresh from [ipsw.me](https://ipsw.me). E.g., for iPad5,1-11.3.1: Copy redirect link.
+- **Download Fails (404):** Update URL in script with fresh from [ipsw.me](https://ipsw.me). E.g., for iPad5,1-11.2: Copy redirect link.
 - **Activation Stuck:** Ensure Find My off, iCloud signed in on temp iOS 15. Retry `get_activation`.
 - **Ramdisk SSH Fails:** Check iproxy port 6414; kill processes, rerun.
 - **Samsung Chip Errors:** SEP blobs needed; use future-proof TSMC devices.
